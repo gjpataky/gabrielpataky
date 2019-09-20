@@ -1,0 +1,70 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* header css */
+.button {
+  background-color: lightblue;
+  border-radius: 6px;
+  color: darkblue;
+  display: block;
+  padding: 6px 12px;
+}
+.button:hover {
+  background-color: maroon;
+  color: gold;
+}
+.button-flex {
+  display: flex;
+}
+.bird {
+  height: 20px;
+  width: 20px;
+  fill: black;
+}
+.header,
+.footer {
+  background-color: darkblue;
+  color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.header {
+  border-bottom: 5px;
+}
+
+.liz-border {
+  border-bottom: 1px;
+}
+
+/* content css */
+.portfolio-image {
+  float: left;
+  height: 200px;
+  padding-right: 24px;
+  width: 100px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-grid-image {
+  margin: 12px;
+}
+.section-content {
+  max-width: 800px;
+}
+.section-main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
