@@ -30,6 +30,7 @@ a {
   height: 24px;
   font-size: 24px;
 }
+/* button css*/
 .button {
   background-color: lightblue;
   border-radius: 6px;
@@ -90,7 +91,7 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-.hangman-wrapper {
+.image-wrapper {
   display: inline-block;
   margin-left: 50px;
   position: relative;
@@ -99,7 +100,7 @@ a {
   height: 200px;
   width: 200px;
 }
-.hangman-label {
+.image-label {
   background-color: blue;
   color: white;
   font-size: 24px;
@@ -109,78 +110,7 @@ a {
   text-align: center;
   width: 100%;
 }
-.rpg-wrapper {
-  display: inline-block;
-  margin-left: 100px;
-  position: relative;
-}
-.rpg-label {
-  background-color: blue;
-  color: white;
-  font-size: 24px;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-.trivia-wrapper {
-  display: inline-block;
-  margin-left: 100px;
-  position: relative;
-}
-.trivia {
-  height: 100px;
-  width: 100px;
-}
-.trivia-label {
-  background-color: blue;
-  color: white;
-  font-size: 24px;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-.northwesterninfowidget-wrapper {
-  display: inline-block;
-  margin-left: 100px;
-  position: relative;
-}
-.northwesterninfowidget {
-  height: 100px;
-  width: 100px;
-}
-.northwesterninfowidget-label {
-  background-color: blue;
-  color: white;
-  font-size: 12px;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-.rockpaperscissors-wrapper {
-  display: inline-block;
-  margin-left: 100px;
-  position: relative;
-}
-.rockpaperscissors {
-  height: 100px;
-  width: 100px;
-}
-.rockpaperscissors-label {
-  background-color: blue;
-  color: white;
-  font-size: 12px;
-  position: absolute;
-  bottom: 12px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
+
 /* footer css */
 footer {
   background-color: blue;
